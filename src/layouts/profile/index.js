@@ -138,72 +138,7 @@ function Overview() {
                 <VuiTypography color="white" variant="lg" fontWeight="bold" mb="6px">
                   Projects
                 </VuiTypography>
-                <VuiTypography color="text" variant="button" fontWeight="regular">
-                  Architects design houses
-                </VuiTypography>
-              </VuiBox>
-              <Grid container spacing={3}>
-                <Grid item xs={12} md={6} xl={4}>
-                  <DefaultProjectCard
-                    image={profile1}
-                    label="project #2"
-                    title="modern"
-                    description="As Uber works through a huge amount of internal management turmoil."
-                    action={{
-                      type: "internal",
-                      route: "/pages/profile/profile-overview",
-                      color: "white",
-                      label: "VIEW ALL",
-                    }}
-                    authors={[
-                      { image: team1, name: "Elena Morison" },
-                      { image: team2, name: "Ryan Milly" },
-                      { image: team3, name: "Nick Daniel" },
-                      { image: team4, name: "Peterson" },
-                    ]}
-                  />
-                </Grid>
-                <Grid item xs={12} md={6} xl={4}>
-                  <DefaultProjectCard
-                    image={profile2}
-                    label="project #1"
-                    title="scandinavian"
-                    description="Music is something that every person has his or her own specific opinion about."
-                    action={{
-                      type: "internal",
-                      route: "/pages/profile/profile-overview",
-                      color: "white",
-                      label: "VIEW ALL",
-                    }}
-                    authors={[
-                      { image: team3, name: "Nick Daniel" },
-                      { image: team4, name: "Peterson" },
-                      { image: team1, name: "Elena Morison" },
-                      { image: team2, name: "Ryan Milly" },
-                    ]}
-                  />
-                </Grid>
-                <Grid item xs={12} md={6} xl={4}>
-                  <DefaultProjectCard
-                    image={profile3}
-                    label="project #3"
-                    title="minimalist"
-                    description="Different people have different taste, and various types of music."
-                    action={{
-                      type: "internal",
-                      route: "/pages/profile/profile-overview",
-                      color: "white",
-                      label: "VIEW ALL",
-                    }}
-                    authors={[
-                      { image: team4, name: "Peterson" },
-                      { image: team3, name: "Nick Daniel" },
-                      { image: team2, name: "Ryan Milly" },
-                      { image: team1, name: "Elena Morison" },
-                    ]}
-                  />
-                </Grid>
-              </Grid>
+              </VuiBox>     
             </VuiBox>
           </Card>
         </Grid>

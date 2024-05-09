@@ -6,7 +6,7 @@ import Card from "@mui/material/Card";
 // Vision UI Dashboard React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import lungImage from 'C:/Users/hp/OneDrive/Desktop/vision-ui-dashboard-react-main/src/assets/images/lung.jpg';
+import lungImage from '/home/ayush.mallick@apmosys.mahape/Music/vision-ui-dashboard-react-main/src/assets/images/lung.jpg';
 
 // Dashboard layout components
 import { useVisionUIController, setLayout } from "context";
