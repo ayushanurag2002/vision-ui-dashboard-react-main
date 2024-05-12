@@ -1,7 +1,7 @@
 // @mui material components
 import Card from "@mui/material/Card";
 
-import brainImage from 'C:/Users/hp/OneDrive/Desktop/vision-ui-dashboard-react-main/src/assets/images/brain.jpg';
+import brainImage from '/home/ayush.mallick@apmosys.mahape/Music/vision-ui-dashboard-react-main/src/assets/images/brain.jpg';
 
 // Vision UI Dashboard React components
 import VuiBox from "components/VuiBox";
