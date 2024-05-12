@@ -18,9 +18,6 @@ const SatisfactionRate = () => {
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='4px'>
 					Satisfaction Rate
 				</VuiTypography>
-				<VuiTypography variant='button' color='text' fontWeight='regular' mb='20px'>
-					From all projects
-				</VuiTypography>
 				<VuiBox sx={{ alignSelf: 'center', justifySelf: 'center', zIndex: '-1' }}>
 					<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
 						<CircularProgress variant='determinate' value={60} size={170} color='info' />

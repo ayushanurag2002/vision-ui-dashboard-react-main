@@ -33,7 +33,7 @@ import VuiTypography from "components/VuiTypography";
 // Vision UI Dashboard React icons
 import { IoCube } from "react-icons/io5";
 import { IoDocument } from "react-icons/io5";
-import { IoBuild } from "react-icons/io5";
+import { IoMedkit } from "react-icons/io5";
 // Vision UI Dashboard React example components
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import { useEffect, useState } from "react";
@@ -143,8 +143,8 @@ function Header() {
                 sx={{ background: "transparent", display: "flex", justifyContent: "flex-end" }}
               >
                 <Tab label="OVERVIEW" icon={<IoCube color="white" size="16px" />} />
-                <Tab label="TEAMS" icon={<IoDocument color="white" size="16px" />} />
-                <Tab label="PROJECTS" icon={<IoBuild color="white" size="16px" />} />
+                <Tab label="REPORTS" icon={<IoDocument color="white" size="16px" />} />
+                <Tab label="DOCTORS" icon={<IoMedkit color="white" size="16px" />} />
               </Tabs>
             </AppBar>
           </Grid>

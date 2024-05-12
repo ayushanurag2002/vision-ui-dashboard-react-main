@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* Vision UI Free React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/vision-ui-free-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-* Licensed under MIT (https://github.com/creativetimofficial/vision-ui-free-react/blob/master LICENSE.md)
-
-* Design and Coded by Simmmple & Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 
 import React from 'react';
 import { Card, Stack, Grid } from '@mui/material';
@@ -41,10 +25,10 @@ const CarInformations = () => {
 			})}>
 			<VuiBox display='flex' flexDirection='column'>
 				<VuiTypography variant='lg' color='white' fontWeight='bold' mb='6px'>
-					Car Informations
+					Helth Informations
 				</VuiTypography>
 				<VuiTypography variant='button' color='text' fontWeight='regular' mb='30px'>
-					Hello, Mark Johnson! Your Car is ready.
+					Hello, Mark Johnson! Your Health Profile is ready.
 				</VuiTypography>
 				<Stack
 					spacing='24px'
@@ -78,7 +62,7 @@ const CarInformations = () => {
 									68%
 								</VuiTypography>
 								<VuiTypography color='text' variant='caption'>
-									Current Load
+									Current Health-Profile
 								</VuiTypography>
 							</VuiBox>
 						</VuiBox>
@@ -87,12 +71,6 @@ const CarInformations = () => {
 							justifyContent='center'
 							flexDirection='column'
 							sx={{ textAlign: 'center' }}>
-							<VuiTypography color='white' variant='lg' fontWeight='bold' mb='2px' mt='18px'>
-								0h 58 min
-							</VuiTypography>
-							<VuiTypography color='text' variant='button' fontWeight='regular'>
-								Time to full charge
-							</VuiTypography>
 						</VuiBox>
 					</VuiBox>
 					<Grid
@@ -124,7 +102,7 @@ const CarInformations = () => {
 								}}>
 								<VuiBox display='flex' flexDirection='column' mr='auto'>
 									<VuiTypography color='text' variant='caption' fontWeight='medium' mb='2px'>
-										Battery Health
+										Contact Doctors
 									</VuiTypography>
 									<VuiTypography
 										color='white'
@@ -135,7 +113,7 @@ const CarInformations = () => {
 												fontSize: '20px'
 											}
 										})}>
-										76%
+										
 									</VuiTypography>
 								</VuiBox>
 								<VuiBox
